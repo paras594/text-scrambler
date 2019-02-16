@@ -1,0 +1,19 @@
+.display-box {
+	display: block;
+	background: $clr-white;
+	margin: 0.5rem auto;
+	width: 500px;
+	height: 200px;
+	border: 2px solid $clr-black;
+	border-radius: 8px;
+	padding: 0.5rem 0.8rem;
+	font-family: $ff-main;
+	font-size: 0.8rem;
+	outline: none;
+}
+
+::placeholder {
+	font-family: $ff-main;
+	color: $clr-gray;
+	text-transform: capitalize;
+}

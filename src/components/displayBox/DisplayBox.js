@@ -2,7 +2,14 @@ import React, { Component } from 'react';
 
 class DisplayBox extends Component {
 	render() {
-		return <div>its working</div>;
+		return (
+			<textarea
+				className="display-box"
+				cols="30"
+				rows="10"
+				placeholder="scrambled text will appear here..."
+			/>
+		);
 	}
 }
 

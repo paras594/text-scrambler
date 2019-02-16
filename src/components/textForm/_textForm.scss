@@ -11,10 +11,11 @@
 	}
 
 	input {
+		width: 300px;
 		border: 2px solid $clr-black;
 		border-radius: 5rem;
 		padding: 0.5rem 0.7rem;
-		font-size: 1rem;
+		font-size: 0.8rem;
 		font-family: $ff-main;
 		outline: none;
 	}
