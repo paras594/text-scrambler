@@ -1,24 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Pacifico');
+@import './styles/_typography.scss';
+@import './styles/_variables.scss';
+@import './styles/_base.scss';
 
-$ff-main: 'Montserrat', sans-serif;
-$ff-head-i: 'Pacifico', cursive;
-$clr-blue: #0e80e9;
-$clr-black: #000;
-$clr-white: #fff;
-$shadow: rgba(0, 0, 0, 0.25);
-
+//component styles :
 @import './components/displayBox/_displayBox.scss';
 @import './components/header/_header.scss';
 @import './components/textForm/_textForm.scss';
-
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
-html,
-body {
-	font-size: 20px;
-	font-family: $ff-main;
-}

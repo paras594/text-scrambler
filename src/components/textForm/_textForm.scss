@@ -1,0 +1,39 @@
+.text-form {
+	margin-top: 1rem;
+	width: 100%;
+	text-align: center;
+
+	&__heading {
+		font-family: $ff-head-i;
+		font-weight: 400;
+		font-size: 1.2rem;
+		padding: 1rem;
+	}
+
+	input {
+		border: 2px solid $clr-black;
+		border-radius: 5rem;
+		padding: 0.5rem 0.7rem;
+		font-size: 1rem;
+		font-family: $ff-main;
+		outline: none;
+	}
+	button {
+		background: $clr-blue;
+		letter-spacing: 1.2px;
+		text-transform: capitalize;
+		font-size: 0.85rem;
+		font-family: $ff-main;
+		font-weight: bold;
+		color: $clr-white;
+		border: none;
+		padding: 0.5rem 2rem;
+		border-radius: 5rem;
+		margin: 1rem 0;
+		cursor: pointer;
+		transition: background 0.3s ease;
+		&:hover {
+			background: $clr-blue-dark;
+		}
+	}
+}
