@@ -1,16 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class DisplayBox extends Component {
-	render() {
-		return (
-			<textarea
-				className="display-box"
-				cols="30"
-				rows="10"
-				placeholder="scrambled text will appear here..."
-			/>
-		);
-	}
+function DisplayBox({ scrambledText }) {
+	return <div className="display-box">{scrambledText ? scrambledText : '! Be Crazy !'}</div>;
 }
 
 export default DisplayBox;
