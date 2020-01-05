@@ -41,5 +41,8 @@
    },
    "dependencies": {
       "prop-types": "^15.7.2"
+   },
+   "resolutions": {
+      "serialize-javascript": "^2.1.1"
    }
 }
